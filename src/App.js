@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Axios from "axios";
 
 function App() {
-  const url = "localhost:8001/v1jobs/job";    //"https://jsonplaceholder.typicode.com/posts/"  this link can be used to see the output in the console
+  const url = "https://jsonplaceholder.typicode.com/posts/";    //jsonplaceholder is used only for development purpose "localhost:8001/v1jobs/job"  is the link that can be replaced as asked in the assignment
   const [data, setData] = useState({
     jobtitle: "",
     location: "",
