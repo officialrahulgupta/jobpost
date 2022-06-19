@@ -45,7 +45,8 @@ function App() {
         maxgradyear: data.maxgradyear,
         tags: data.tags
       }).then(res => {
-        console.log("Data posted successfully", res.data)
+        alert("Data posted successfully. Kindly check the console to see the posted data")
+        console.log(res.data);
       })
   }, [errors]);  // eslint-disable-line react-hooks/exhaustive-deps
 
